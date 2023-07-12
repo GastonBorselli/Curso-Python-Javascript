@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+</head>
+<body>
+    <form action="">
+        
+        <div>
+            <input type="text" name="name" placeholder="Nombre">
+            <input type="password" name="password" placeholder="Contraseña">
+        </div>
+
+        <div>
+            <h2>Color favorito?</h2>
+            <input type="radio" name="color" value="rojo"> Rojo
+            <input type="radio" name="color" value="azul"> Azul
+            <input type="radio" name="color" value="verde"> Verde
+            <input type="radio" name="color" value="amarillo"> Amarillo
+        </div>
+
+        <div>
+            <input list="paises" name="pais" placeholder="Paises">
+            <datalist id="paises">
+                <option value="Argentina">
+                <option value="Brasil">
+                <option value="Chile">
+                <option value="Uruguay">
+            </datalist>
+        </div>
+
+    </form>
+</body>
+</html>
